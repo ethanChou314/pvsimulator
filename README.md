@@ -10,8 +10,9 @@ Here are the assumptions we employed:
 6. The thickness of the inner disk is equal to the height of the sphere with cavities at the centrifugal barrier. 
 
 Features:
-1. The data can be exported by setting save_txt=True and specifying a filename. If the filename already exists, the function does not override the existing file, and an Exception will be raised. You will have to manually delete the file. This is to prevent carelessness as the data might take a long time to compute.
-2. Capable of simulating PV diagrams on both the major and minor axes within the plane of sky. 
+1. The data can be exported by setting save_txt=True and specifying a filename. If the filename already exists, the function does not override the existing file, and an Exception will be raised. You will have to manually delete the file. This is to prevent carelessness as the data generally take a long time to compute.
+2. You can retrieve the v-, x-, and s-axes of the PV model from a generated text file using the 'read_txt' function.
+3. The module is capable of simulating PV diagrams on both the major and minor axes within the plane of sky. 
 
 Limitation:
 1. Takes a long time to compute if linspace_num is high or int_step is low. However, low linspace_num results may differ from high linspace_num results (high linspace_num is more accurate). If you would like to simply see an overall picture, you can set the resol parameter to None, which assumes infinite (non-existent) angular resolution. This improves the performance time significantly, although the results may not be as accurate.
