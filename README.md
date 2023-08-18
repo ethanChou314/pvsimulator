@@ -13,4 +13,4 @@ Here are the assumptions we employed:
 Additional notes:
 1. The inclination angle is defined such that 0 deg is edge-on, and 90 deg is face-on.
 2. The "max_vel" parameter refers to the maximum velocity observed on the PV diagram on the major axis. This is to derive the specific angular momentum and stellar mass parameters.
-3. This is a modification of the model in Oya et al. (2014, ApJ, 795, 152), which considered the case of an optically-thin disk. 
+3. This is a modification of the model in Oya et al. (2014, ApJ, 795, 152), which considered the case of an spatially-thin disk. 
