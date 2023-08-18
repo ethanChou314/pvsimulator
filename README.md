@@ -95,6 +95,4 @@ S_{v}(v, x) \propto \int \Sigma(x, y, z) \Delta y
 
 where $v$ is a function of $(x, y, z)$. 
 
-Note: This is a modification of the model in Oya et al. (2014, ApJ, 795, 152), which considered the case of an optically-thin disk. 
-
 Please feel free to contact me at ethanchou04@gmail.com if you have any questions about the code.
