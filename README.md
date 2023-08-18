@@ -8,6 +8,7 @@ Here are the assumptions we employed:
 3. We assume the surface density is proportional to R^p, where p is a free parameter. Default is to use p = -1.5.
 4. We take into account the limited angular resolution of the telescope, so the intensity values on both axes of the plane of sky are averaged. 
 5. Inside the centrifugal barrier, we assume rigid rotation with angular speed at the radius of the centrifugal barrier in order to avoid dividing by zero. This assumption is adjustable with one of the parameters (see docstring).
+6. The thickness of the inner disk is equal to the height at the centrifugal barrier. 
 
 Additional notes:
 1. The inclination angle is defined such that 0 deg is edge-on, and 90 deg is face-on.
