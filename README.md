@@ -11,9 +11,10 @@ Here are the assumptions we employed:
 
 Features:
 1. The data can be exported by setting save_txt=True and specifying a filename. If the filename already exists, the function does not override the existing file, and an Exception will be raised. You will have to manually delete the file. This is to prevent carelessness as the data might take a long time to compute.
+2. Capable of simulating PV diagrams on both the major and minor axes within the plane of sky. 
 
 Limitation:
-1. Takes a long time to compute if linspace_num is high or int_step is low. However, low linspace_num results may differ from high linspace_num results (high linspace_num is more accurate). If you would like to simply get an overall picture, you can set the resol parameter to None, which assumes infinite (non-existent) angular resolution. This improves the performance time significantly.
+1. Takes a long time to compute if linspace_num is high or int_step is low. However, low linspace_num results may differ from high linspace_num results (high linspace_num is more accurate). If you would like to simply see an overall picture, you can set the resol parameter to None, which assumes infinite (non-existent) angular resolution. This improves the performance time significantly, although the results may not be as accurate.
 
 Additional notes:
 1. The inclination angle is defined such that 0 deg is edge-on, and 90 deg is face-on.
