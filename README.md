@@ -70,23 +70,29 @@ v^{los}_{rot} = |\vec{v_{rot}}| \ \cos \phi \cos i
 \end{equation}
 
 Next, we consider the infall velocity, which is given by: 
+
 \begin{equation}
 \vec{v_{inf}} = |\vec{v_{inf}}|(\cos \theta \cos \phi \ \hat{\mathbf{x'}} 
 + \cos \theta \sin \phi \ \hat{\mathbf{y'}} - \sin \theta \ \hat{\mathbf{z'}}) 
 \end{equation}
+
 where $\hat{\mathbf{z'}} = \langle 0,\ \sin i,\ -\cos i \rangle$. 
 Projecting the infall velocity onto the line of sight gives:
+
 \begin{equation}
 v^{los}_{inf} = |\vec{v_{inf}}| (\cos \theta \sin \phi \cos i - \sin \theta \sin i)
 \end{equation}
+
 The observed intensity $S_v$ is assumed to be proportional to the column density. We suppose that the disk surface density is dependent on the distance to the origin raised to a power law index $p = -1.5$ outside the centrifugal barrier (i.e., $\Sigma \propto R_{cen}^{-1.5}$). Inside the centrifugal barrier, we cap the disk surface density to $R_{0}^{-1.5}$ to avoid dividing by zero. This applies if the following conditions due to the geometric boundaries are satisfied; otherwise, we assume zero surface density:
 1. $R_{cen}(X, Y, Z) \leq R_{env}$ and $\theta_{ref}=|\sin^{-1}(|\frac{Z'}{R_{cen}}|)| \leq 90^{\circ} - \frac{\theta_{cav}}{2} $   if $R_{ax} \leq R_0$
 2.  $|Z'| \leq R_0 \cot{\frac{\theta_{cav}}{2}}$  if $R_{ax} > R_0$
 
 We calculate the intensity of each pixel on the PV diagram using the following relation:
+
 \begin{equation}
 S_{v}(v, x) \propto \int \Sigma(x, y, z) \Delta y
 \end{equation}
+
 where $v$ is a function of $(x, y, z)$. 
 
 Note: This is a modification of the model in Oya et al. (2014, ApJ, 795, 152), which considered the case of an optically-thin disk. 
