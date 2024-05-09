@@ -10,7 +10,7 @@ Here are the assumptions we employed:
 6. The thickness of the inner disk is equal to the height of the sphere with cavities at the centrifugal barrier. 
 
 Features:
-1. The data can be exported. If the filename already exists, the existing file does not get overrided, and an Exception will be raised. You will have to manually delete the file. 
+1. The data can be exported. If the filename already exists, the existing file does not get overwritten, and an Exception will be raised. You will have to manually delete the file. 
 2. You can retrieve the axes of the PV model from a generated text file.
 3. The module is capable of simulating PV diagrams on both the major and minor axes within the plane of sky.
 4. Gaussian convolution can be performed.
